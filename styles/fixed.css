@@ -15,7 +15,6 @@ body {
 }
 section{
     position:relative;
-    top:100px;
 }
 
 section h2{
@@ -23,19 +22,21 @@ section h2{
     text-align: center;
     margin: 0 auto;
     width:80%;
+    padding:10px;
 }
 
 article{
+    border-radius: 8px;
     background-color: white;
     margin: 0 auto;
-    width:70%;
-    
+    width:70%; 
+    margin-bottom: 15px;   
 }
 
 article h3{
+    border-radius: 8px 8px 0 0;
     background-color: green;
     padding: 5px;
-    margin-bottom: 5px;
 }
 article p{
     color:black;
