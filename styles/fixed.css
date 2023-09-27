@@ -1,0 +1,44 @@
+body {
+    background-color: lightgrey;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el espacio interno predeterminado del cuerpo */
+}
+
+#fixed-header {
+    background-color: rgb(51, 53, 77);
+    position: fixed; /* Hace que el encabezado se mantenga fijo */
+    top: 0; /* Coloca el encabezado en la parte superior de la página */
+    width: 100%; /* Ancho del encabezado al 100% del ancho de la ventana */
+    z-index: 5; /* Establece una capa superior para el encabezado */
+}
+section{
+    position:relative;
+    top:100px;
+}
+
+section h2{
+    background-color: rgb(51,53,77);
+    text-align: center;
+    margin: 0 auto;
+    width:80%;
+}
+
+article{
+    background-color: white;
+    margin: 0 auto;
+    width:70%;
+    
+}
+
+article h3{
+    background-color: green;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+article p{
+    color:black;
+    text-align: justify;
+    padding:10px;
+}
