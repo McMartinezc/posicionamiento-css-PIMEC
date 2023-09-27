@@ -1,0 +1,29 @@
+body{
+    background-color:rgb(50,231,255);
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkcyan;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 15px;
+    font-size: 40px;
+    
+}
+div::first-letter{
+    font-size: 46px;
+    float: left;
+}
+
+div{
+    border:2px dashed darkcyan;
+    background-color:rgb(0,180,204);
+    width: 200px;
+    height: 200px;
+    /*float todos los div float hacia la izquierda*/
+    float:left;
+    margin: 10px;
+    padding: 10px;
+}
+
